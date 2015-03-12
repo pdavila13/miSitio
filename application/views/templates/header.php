@@ -19,7 +19,7 @@
 
     <!-- Custom CSS -->
     <link href="<?php echo base_url('assets/css/landing-page.css'); ?>" rel="stylesheet">
-    <link href="<? echo base_url('assets/css/signin.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/signin.css'); ?>" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">

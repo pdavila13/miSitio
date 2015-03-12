@@ -49,7 +49,7 @@
                     </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="<? echo base_url('assets/img/pc.jpg'); ?>" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/img/pc.jpg'); ?>" alt="">
                 </div>
             </div>
 
@@ -78,7 +78,7 @@
                 </div>
                 
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="<? echo base_url('assets/img/phone.png'); ?>" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/img/phone.png'); ?>" alt="">
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
                 </div>
                 
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="<? echo base_url('assets/img/responsive_web_design.png'); ?>" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/img/responsive_web_design.png'); ?>" alt="">
                 </div>
             </div>
 
@@ -134,7 +134,7 @@
                 </div>
                 
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="<? echo base_url('assets/img/ap.png'); ?>" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/img/ap.png'); ?>" alt="">
                 </div>
             </div>
 
