@@ -5,19 +5,19 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="<? echo base_url(); ?>">Inicio</a>
+                            <a href="<?php echo base_url(); ?>">Inicio</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<? echo base_url('#about'); ?>">Acerca de</a>
+                            <a href="<?php echo base_url('#about'); ?>">Acerca de</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<? echo base_url('#services'); ?>">Servicios</a>
+                            <a href="<?php echo base_url('#services'); ?>">Servicios</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<? echo base_url('index.php/home/gallery'); ?>">Galeria</a>
+                            <a href="<?php echo base_url('index.php/home/gallery'); ?>">Galeria</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
@@ -25,7 +25,7 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="<? echo base_url('#contact'); ?>">Contacto</a>
+                            <a href="<?php echo base_url('#contact'); ?>">Contacto</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small" align="center">Copyright &copy; Paolo Dávila 2015. All Rights Reserved</p>
@@ -35,11 +35,11 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="<? echo base_url('assets/js/jquery.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="<? echo base_url('assets/js/bootstrap-theme.js'); ?>"></script>
-    <script src="<? echo base_url('assets/js/bootstrap-theme.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/bootstrap-theme.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/bootstrap-theme.min.js'); ?>"></script>
 
 </body>
 

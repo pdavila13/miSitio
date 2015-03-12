@@ -8,26 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sitio web personal">
     <meta name="author" content="Paolo Dávila">
-    <link rel="icon" href="<? echo base_url('assets/img/favicon.png'); ?>">
+    <link rel="icon" href="<?php echo base_url('assets/img/favicon.png'); ?>">
 
     <title>Paolo Dávila</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="<? echo base_url('assets/css/bootstrap-theme.css'); ?>" rel="stylesheet">
-    <link href="<? echo base_url('assets/css/bootstrap-theme.min.css'); ?>" rel="stylesheet">
-    <link href="<? echo base_url('assets/css/bootstrap_login.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/bootstrap-theme.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/bootstrap-theme.min.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/bootstrap_login.css'); ?>" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="<? echo base_url('assets/css/landing-page.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/landing-page.css'); ?>" rel="stylesheet">
     <link href="<? echo base_url('assets/css/signin.css'); ?>" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="<? echo base_url('assets/font-awesome/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
-    <link href="<? echo base_url('assets/fonts/font-family.css'); ?>" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url('assets/fonts/fonts-family.css'); ?>" rel="stylesheet" type="text/css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="<? echo base_url('assets/js/ie-emulation-modes-warning.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/ie-emulation-modes-warning.js'); ?>"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

@@ -20,29 +20,29 @@
             <!-- Indicates a successful or positive action -->
             <ul class="nav navbar-nav navbar-left">
                 <li>
-                    <a href="<? echo base_url('index.php/home/login'); ?>"><button type="button" class="btn-login btn-success">Login</button></a>
+                    <a href="<?php echo base_url('index.php/home/login'); ?>"><button type="button" class="btn-login btn-success">Login</button></a>
                 </li>
             </ul>
             
                 
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="<? echo base_url(); ?>">Inicio</a>
+                        <a href="<?php echo base_url(); ?>">Inicio</a>
                     </li>
                     <li>
-                        <a href="<? echo base_url('#about'); ?>">Acerca de</a>
+                        <a href="<?php echo base_url('#about'); ?>">Acerca de</a>
                     </li>
                     <li>
-                        <a href="<? echo base_url('#services'); ?>">Servicios</a>
+                        <a href="<?php echo base_url('#services'); ?>">Servicios</a>
                     </li>
                     <li>
-                        <a href="<? echo base_url('index.php/home/gallery');?> ">Galeria</a>
+                        <a href="<?php echo base_url('index.php/home/gallery');?> ">Galeria</a>
                     </li>
                     <li>
                         <a href="http://paolodavila.com/mediawiki" target="_blank">Wiki</a>
                     </li>
                     <li>
-                        <a href="<? echo base_url('#contact'); ?>">Contacto</a>
+                        <a href="<?php echo base_url('#contact'); ?>">Contacto</a>
                     </li>
                 </ul>
             </div>
