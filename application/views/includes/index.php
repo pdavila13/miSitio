@@ -150,13 +150,11 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-6">
-                    <h2>Datos de contacto: </h2>
-                    <h3 class="glyphicon glyphicon-phone"> 672 65 45 26</h3><br>
-                    <h3 class="glyphicon glyphicon-envelope"> info@paolodavila.com</h3><br>
-                    <h3 class="glyphicon glyphicon-home"> Sant Gregori, 2-2n - Roquetes</h3><br>
+                <div class="col-lg-7">
+                    <h3>Datos de contacto: </h3>
                 </div>
-                <div class="col-lg-6">
+
+                <div class="col-lg-5">
                     <ul class="list-inline banner-social-buttons">
                         <li>
                             <a href="https://twitter.com/pdavila13" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -171,6 +169,20 @@
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col-lg-7"> 
+                    <h4 class="glyphicon glyphicon-phone"> 672 65 45 26</h4><br>
+                    <h4 class="glyphicon glyphicon-envelope"> info@paolodavila.com</h4><br>
+                    <h4 class="glyphicon glyphicon-home"> Sant Gregori, 2-2n - Roquetes</h4>
+                </div>
+
+                <div class="col-lg-5 text-center">
+                <br><br><br>
+                    <form accept-charset="utf-8" method="post" action="<?php echo base_url('index.php/home/contact'); ?>">
+                        <button class="btn-general btn-blanc-index-gr" type="submit" name=""> + info </button>
+                    </form>
+                </div>
+            </div>
         </div>
         <!-- /.container -->
 

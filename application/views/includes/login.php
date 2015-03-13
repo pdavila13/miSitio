@@ -1,5 +1,11 @@
     <div class="container">
 
+    <div class="row">
+
+      <div class="clearfix"></div>
+
+      <hr>
+
       <form class="form-signin">
         <h2 class="form-signin-heading" align="center">Iniciar sesión</h2>
         <label for="inputEmail" class="sr-only">Usuario</label>
@@ -18,5 +24,6 @@
         <br>
         <a href="#" align="center">¿Has olvidado tu contraseña?</a>
       </form>
-
+    </div>
+    <br><br><br><br><br><br><br>
     </div> <!-- /container -->

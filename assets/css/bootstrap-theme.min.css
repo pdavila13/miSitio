@@ -201,13 +201,14 @@ a{
  																		}
 
  																		.btn-blanc-index-gr{
- 																			background: none repeat scroll 0 0 #ececec;
- 																			border: 3px solid #d59221;
- 																			color: #e89e24;
- 																			font-size: 1.9em;
+ 																			background: none repeat scroll 0 0 #fff;
+ 																			border-radius: 6px;
+ 																			border: #ccc;
+ 																			color: #333;
+ 																			font-size: 1.4em;
  																			font-weight: 400;
  																			margin-bottom: 20px;
- 																			padding: 15px 50px;
+ 																			padding: 5px 20px;
 
  																		}
  																		/*
