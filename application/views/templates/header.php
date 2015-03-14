@@ -16,6 +16,7 @@
     <link href="<?php echo base_url('assets/css/bootstrap-theme.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap-theme.min.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap_login.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/animation.css'); ?>" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="<?php echo base_url('assets/css/landing-page.css'); ?>" rel="stylesheet">

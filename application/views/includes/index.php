@@ -48,9 +48,17 @@
 					    Implementación y diseño de redes LAN y WiFi.<br>
                     </p>
                 </div>
+
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="<?php echo base_url('assets/img/pc.jpg'); ?>" alt="">
                 </div>
+                <!--
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="animation">
+                        <img class="img-responsive" src="<?php echo base_url('assets/img/pc.jpg'); ?>" alt="">
+                    </div>
+                </div>
+                -->
             </div>
 
         </div>
@@ -148,39 +156,36 @@
     <div class="banner">
 
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-7">
                     <h3>Datos de contacto: </h3>
-                </div>
-
-                <div class="col-lg-5">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/pdavila13" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/pdavila13/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-7"> 
                     <h4 class="glyphicon glyphicon-phone"> 672 65 45 26</h4><br>
                     <h4 class="glyphicon glyphicon-envelope"> info@paolodavila.com</h4><br>
                     <h4 class="glyphicon glyphicon-home"> Sant Gregori, 2-2n - Roquetes</h4>
                 </div>
 
-                <div class="col-lg-5 text-center">
-                <br><br><br>
-                    <form accept-charset="utf-8" method="post" action="<?php echo base_url('index.php/home/contact'); ?>">
-                        <button class="btn-general btn-blanc-index-gr" type="submit" name=""> + info </button>
-                    </form>
+                <div class="col-lg-5">
+                    <div class="row">
+                        <ul class="list-inline banner-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/pdavila13" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/pdavila13/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <hr class="intro-divider">
+
+                    <div class="row text-center">
+                            <form accept-charset="utf-8" method="post" action="<?php echo base_url('index.php/home/contact'); ?>">
+                                <button class="btn-general btn-blanc-index-gr" type="submit" name=""> + info </button>
+                            </form>
+                    </div>
                 </div>
             </div>
         </div>
