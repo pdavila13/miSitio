@@ -36,20 +36,20 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-6 col-sm-7">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Reparación de ordenadores</h2>
-                    <p class="lead">
-                    	Reparación y limpieza en ordenadores de sobremesa, portátiles, netbooks, etc.<br>
-					    Reinstalación y optimización de sistemeas operativos.<br>
-					    Ampliación de memoria, discos duros, targetas grátificas...<br>
-					    Montaje de ordenadores a piezas.<br>
-					    Implementación y diseño de redes LAN y WiFi.<br>
-                    </p>
+                    <h2 class="section-heading">Reparación de ordenadores y redes</h2>
+                    <blockquote>
+                        <p class="lead">Reparación y limpieza en ordenadores de sobremesa, portátiles, netbooks, etc.</p>
+                        <p class="lead">Reinstalación y optimización de sistemeas operativos.</p>
+                        <p class="lead">Ampliación de memoria, discos duros, targetas grátificas...</p>
+                        <p class="lead">Montaje de ordenadores a piezas.</p>
+                        <p class="lead">Implementación y diseño de redes LAN y WiFi.</p>
+                    </blockquote>
                 </div>
 
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-5">
                     <img class="img-responsive" src="<?php echo base_url('assets/img/pc.jpg'); ?>" alt="">
                 </div>
                 <!--
@@ -72,20 +72,20 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-6 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Reparación de SmartPhones y Tablets</h2>
-                    <p class="lead">
-                    	Reparación de SmartPhones, iPhones, iPods, Tablets, etc.<br>
-                    	Repuestos de alta calidad y de todas las marcas.<br>
-                    	Técnico cualificado con experiencia.<br>
-                    	Amplia gama de servicios de reparación.<br>
-					    Solicita tu presupuesto de reparación gratuita.<br>
-                    </p>
+                    <blockquote>
+                        <p class="lead">Reparación de SmartPhones, iPhones, iPods, Tablets, etc.</p>
+                        <p class="lead">Repuestos de alta calidad y de todas las marcas.</p>
+                        <p class="lead">Técnico cualificado con experiencia.</p>
+                        <p class="lead">Amplia gama de servicios de reparación.</p>
+                        <p class="lead">Solicita tu presupuesto de reparación gratuita.</p>
+                    </blockquote>
                 </div>
                 
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <div class="col-lg-5 col-sm-pull-7  col-sm-6">
                     <img class="img-responsive" src="<?php echo base_url('assets/img/phone.png'); ?>" alt="">
                 </div>
             </div>
@@ -101,18 +101,20 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-6 col-sm-7">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Diseño de páginas web</h2>
-                    <p class="lead">
-                        Diseño y creación de sitios webs<br>
-					    Gestión de contenidos CMS<br>
-					    Lenguajes: PHP, JavaScript, HTML5, CCS3<br>
-                    </p>
+                    <blockquote>
+                        <p class="lead">Diseño y creación de sitios webs</p>
+                        <p class="lead">Gestión de contenidos CMS</p>
+                        <p class="lead"><strong>Lenguajes:</strong> PHP, JavaScript, HTML5, CCS3</p>
+                        <p class="lead"><strong>Framework:</strong> CodeIgniter</p>
+                        <p class="lead"><strong>Herramientas:</strong> Bootstrap</p>
+                    </blockquote>
                 </div>
                 
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-5">
                     <img class="img-responsive" src="<?php echo base_url('assets/img/responsive_web_design.png'); ?>" alt="">
                 </div>
             </div>
@@ -128,20 +130,20 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-6 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Internet sin cable</h2>
-                    <p class="lead">
-                    	Instalación de Internet via Wi-Fi<br>
-					    Internet de alta velocidad<br>
-					    Covertura en zonas alejadas de la ciudad<br>
-					    Servicio las 24h<br>
-					    Buen precio<br>
-                    </p>
+                    <blockquote>
+                        <p class="lead">Instalación de Internet via Wi-Fi</p>
+                        <p class="lead">Internet de alta velocidad</p>
+                        <p class="lead">Covertura en zonas alejadas de la ciudad</p>
+                        <p class="lead">Servicio las 24h</p>
+                        <p class="lead">Buen precio</p>
+                    </blockquote>
                 </div>
                 
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <div class="col-lg-5 col-sm-pull-7  col-sm-6">
                     <img class="img-responsive" src="<?php echo base_url('assets/img/ap.png'); ?>" alt="">
                 </div>
             </div>

@@ -28,7 +28,7 @@
                             <a href="<?php echo base_url('#contact'); ?>">Contacto</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small" align="center">Copyright &copy; Paolo Dávila 2015. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Paolo Dávila 2015. All Rights Reserved</p>
                 </div>
             </div>
         </div>
