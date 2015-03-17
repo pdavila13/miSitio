@@ -12,7 +12,7 @@ class Home extends CI_Controller {
 
 	public function gallery(){
 		$data['content']='includes/gallery';
-		$this->load->view('templates/header',$data);
+  		$this->load->view('templates/header',$data);
 		$this->load->view('templates/nav',$data);
   		$this->load->view('templates/body',$data);
   		$this->load->view('templates/footer',$data);

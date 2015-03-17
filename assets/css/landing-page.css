@@ -127,19 +127,32 @@ h6 {
     font-size: 3em;
 }
 
-.banner ul {
-    margin-bottom: 0;
+.banner-contact {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
+.banner-contact > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.banner-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.banner-contact > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 @media(max-width:1199px) {
-    ul.banner-social-buttons {
+    ul.banner-social-buttons-no {
         float: left;
-        margin-top: 15px;
+        margin-top: 20px;
     }
 }
 
@@ -150,14 +163,26 @@ h6 {
         font-size: 3em;
     }
 
+    .banner-contact {
+        padding-bottom: 3%;
+    }
+
+    .banner-contact > h1 {
+        font-size: 3em;
+    }
+
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    ul.banner-social-buttons > li:last-child {
+    ul.baner-social-buttons > li:last-child {
         margin-bottom: 0;
+    }
+
+    .banner-divider {
+        width: 100%;
     }
 }
 

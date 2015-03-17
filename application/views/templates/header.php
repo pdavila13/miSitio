@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sitio web personal">
     <meta name="author" content="Paolo Dávila">
+    <!-- Responsive viewport for smartphone devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <link rel="icon" href="<?php echo base_url('assets/img/favicon.png'); ?>">
 
     <title>Paolo Dávila</title>
@@ -16,11 +19,13 @@
     <link href="<?php echo base_url('assets/css/bootstrap-theme.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap-theme.min.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap_login.css'); ?>" rel="stylesheet">
-    <link href="<?php echo base_url('assets/css/animation.css'); ?>" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="<?php echo base_url('assets/css/landing-page.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/signin.css'); ?>" rel="stylesheet">
+
+    <!-- least.js CSS-file 
+    <link href="<?php echo base_url('assets/src/css/least.min.css'); ?>" rel="stylesheet" />-->
 
     <!-- Custom Fonts -->
     <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
