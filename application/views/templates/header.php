@@ -24,8 +24,8 @@
     <link href="<?php echo base_url('assets/css/landing-page.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/signin.css'); ?>" rel="stylesheet">
 
-    <!-- least.js CSS-file 
-    <link href="<?php echo base_url('assets/src/css/least.min.css'); ?>" rel="stylesheet" />-->
+    <!-- least.js 2 CSS file -->
+    <link href="<?php echo base_url('assets/src/css/least.min.css'); ?>" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
