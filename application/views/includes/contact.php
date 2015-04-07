@@ -3,8 +3,8 @@
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3 well">
-            <?php $attributes = array("class" => "form-horizontal", "name" => "contactform");
-            echo form_open("contactform/index", $attributes);?>
+            <?php $attributes = array("class" => "form-horizontal", "name" => "form_contact");
+            echo form_open("index.php/home/form_contact", $attributes);?>
             <fieldset>
             <legend>Contact Form</legend>
             <div class="form-group">
