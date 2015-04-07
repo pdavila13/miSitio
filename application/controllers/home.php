@@ -43,7 +43,7 @@ class Home extends CI_Controller {
 
 		//set validation rules
         $this->form_validation->set_rules('name', 'Nombres y apellidos', 'trim|required|xss_clean|callback_alpha_space_only');
-        $this->form_validation->set_rules('phone', 'Teléfono fijo o móbil', 'trim|required');
+        //$this->form_validation->set_rules('phone', 'Teléfono fijo o móbil', 'trim|required');
         $this->form_validation->set_rules('email', 'Correo electrónico', 'trim|required|valid_email');
         $this->form_validation->set_rules('subject', 'Asunto', 'trim|required|xss_clean');
         $this->form_validation->set_rules('message', 'Mensaje', 'trim|required|xss_clean');
@@ -59,7 +59,7 @@ class Home extends CI_Controller {
         } else{
             //get the form data
             $name = $this->input->post('name');
-            $phone = $this->input->post('phone');
+            //$phone = $this->input->post('phone');
             $from_email = $this->input->post('email');
             $subject = $this->input->post('subject');
             $message = $this->input->post('message');
@@ -85,16 +85,17 @@ class Home extends CI_Controller {
             $this->email->to($to_email);
             $this->email->subject($subject);
             $this->email->message($message);
+
             if ($this->email->send())
             {
                 // mail sent
-                $this->session->set_flashdata('msg','<div class="alert alert-success text-center">Your mail has been sent successfully!</div>');
+                $this->session->set_flashdata('msg','<div class="alert alert-success text-center">Su mensaje ha sido enviado con éxito!</div>');
                 redirect('index.php/home/form_contact');
             }
             else
             {
                 //error
-                $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">There is error in sending mail! Please try again later</div>');
+                $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Hay errores en el envío de correo! Por favor, inténtelo de nuevo más tarde</div>');
                 redirect('index.php/home/form_contact');
             }
         }
