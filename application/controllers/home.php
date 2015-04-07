@@ -104,7 +104,7 @@ class Home extends CI_Controller {
     //custom validation function to accept only alphabets and space input
     function alpha_space_only($str){
         if (!preg_match("/^[a-zA-Z ]+$/",$str)) {
-            $this->form_validation->set_message('alpha_space_only', 'The %s field must contain only alphabets and space');
+            $this->form_validation->set_message('alpha_space_only', 'El campo %s debe contener sólo letras y espacio');
             return FALSE;
         } else {
             return TRUE;
