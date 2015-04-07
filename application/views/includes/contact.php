@@ -5,39 +5,39 @@
 		</div>
 
 		<div class="col-xs-12 col-md-8">
-			<form>
+			<form method="post" action="<?php echo base_url('application/views/includes/send.php'); ?>">
 				<div class="form-group has-success has-feedback">
 					<label for="InputName">Nombre y apellido</label>
-				    <input type="text" class="form-control-contact" id="InputName">
+				    <input type="text" name="name" class="form-control-contact" id="InputName">
 				</div>
 
 				<div class="form-group">
 				    <label for="InputPhone">Teléfono fijo o móbil</label>
-				    <input type="text" class="form-control-contact" id="InputPhone">
+				    <input type="text" name="phone" class="form-control-contact" id="InputPhone">
 				</div>
 
 				<div class="form-group">
 				    <label for="InputEmail">Correo electrónico</label>
-				    <input type="email" class="form-control-contact" id="InputEmail">
+				    <input type="email" name="email" class="form-control-contact" id="InputEmail">
 				</div>
 
 				<div class="form-group">
-				    <label for="InputTheme">Tema</label>
-				    <input type="text" class="form-control-contact">
+				    <label for="InputSubject">Asunto</label>
+				    <input type="text" name="subject" class="form-control-contact">
 				</div>
 
 				<div class="form-group">
 				    <label for="InputTheme">Mensaje</label>
-				    <textarea class="form-control-contact" rows="3" style="width: 526px; height: 132px;"></textarea>
+				    <textarea name="message" class="form-control-contact" rows="3" style="width: 526px; height: 138px;"></textarea>
 				</div>
 
-				<div class="checkbox">
+				<!--<div class="checkbox">
 				    <label>
 				      <input type="checkbox"> Aceptar y enviar.
 				    </label>
-				</div>
-				
-				<button type="submit" class="btn btn-primary pull-left">Enviar</button>
+				</div>-->
+					
+				<button type="submit" name="submit" class="btn btn-primary pull-left">Enviar</button>
 			</form>
 		</div>
 
@@ -49,18 +49,18 @@
 
 			<div class="row">
 				<address>
-				  <strong>Dirección: </strong><br>
+				  <h4>Dirección:</h4>
 				  C/ Sant Gregori, 2-2n<br>
 				  Tarragona - Roquetes, 43520<br>
 				</address>
 
 				<address>
-				  <strong>Correo electrónico: </strong><br>
+				  <h4>Correo electrónico:</h4>
 				  <a href="mailto:#">info@paolodavila.com</a>
 				</address>
 
 				<address>
-				  <strong>Teléfono: </strong><br>
+				  <h4>Teléfono: </h4>
 				  <abbr title="Phone">+34 672 65 45 26</abbr>
 				</address>
 			</div>

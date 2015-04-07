@@ -17,15 +17,15 @@
                 <ul class="least-gallery">
                     <!-- 1 || Element with data-caption ||-->
                     <li>
-                        <a href="<?php echo base_url('assets/src/media/big/01.jpg'); ?>" title="Skate" data-subtitle="Ver Imagen" data-caption="<strong>Bold text</strong> normal caption text">
-                            <img src="<?php echo base_url('assets/src/media/thumbnails/01.jpg'); ?>" alt="Alt Image Text" />
+                        <a href="<?php echo base_url('assets/src/media/big/img-01.jpg'); ?>" title="MotherBoard" data-subtitle="Ver Imagen" data-caption="<strong>Portátil HP</strong> - limpieza">
+                            <img src="<?php echo base_url('assets/src/media/thumbnails/img-01.jpg'); ?>" alt="Alt Image Text" />
                         </a>
                     </li>
                     
                     <!-- 2 || Element with data-caption as href-attribute ||-->-->
                     <li>
-                        <a href="<?php echo base_url('assets/src/media/big/02.jpg'); ?>" title="Tren" data-subtitle="Ver Imagen" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>">
-                            <img src="<?php echo base_url('assets/src/media/thumbnails/02.jpg'); ?>" alt="Alt Image Text" />
+                        <a href="<?php echo base_url('assets/src/media/big/img-02.jpg'); ?>" title="MotherBoard" data-subtitle="Ver Imagen" data-caption="<strong>Portátil HP</strong> - limpieza">
+                            <img src="<?php echo base_url('assets/src/media/thumbnails/img-02.jpg'); ?>" alt="Alt Image Text" />
                         </a>
                     </li>
                     

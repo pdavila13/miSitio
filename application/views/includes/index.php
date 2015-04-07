@@ -89,7 +89,7 @@
                     </blockquote>
                 </div>
                 
-                <div class="col-lg-5 col-sm-pull-7  col-sm-6">
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="<?php echo base_url('assets/img/phone.png'); ?>" alt="">
                 </div>
             </div>
@@ -148,7 +148,7 @@
                     </blockquote>
                 </div>
                 
-                <div class="col-lg-5 col-sm-pull-7  col-sm-6">
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="<?php echo base_url('assets/img/ap.png'); ?>" alt="">
                 </div>
             </div>
@@ -184,16 +184,14 @@
                                 <li>
                                     <a href="https://twitter.com/pdavila13" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                                 </li>
-                                
                             </ul>
                         </div>
-                        
                     </div>
 
                     <hr class="banner-divider">
 
                     <div class="row text-center">
-                            <form accept-charset="utf-8" method="post" action="<?php echo base_url('index.php/home/contact'); ?>">
+                            <form accept-charset="utf-8" method="post" action="<?php echo base_url('index.php/home/form_contact'); ?>">
                                 <button class="btn-general btn-blanc-index-gr" type="submit" name=""> + info </button>
                             </form>
                     </div>
