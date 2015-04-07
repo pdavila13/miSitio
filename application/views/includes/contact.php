@@ -5,7 +5,7 @@
 		</div>
 
 		<div class="col-xs-12 col-md-8">
-			<form method="post" action="<?php echo base_url('application/views/includes/send.php'); ?>">
+			<form method="post" action="<?php echo base_url('index.php/home/form_contact'); ?>">
 				<div class="form-group has-success has-feedback">
 					<label for="InputName">Nombre y apellido</label>
 				    <input type="text" name="name" class="form-control-contact" id="InputName">
@@ -39,6 +39,8 @@
 					
 				<button type="submit" name="submit" class="btn btn-primary pull-left">Enviar</button>
 			</form>
+
+			<?php echo $this->session->flashdata('msg'); ?>
 		</div>
 
 		<div class="col-xs-6 col-md-4">
